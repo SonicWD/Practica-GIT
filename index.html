@@ -3,25 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio de Sesión</title>
-    <link rel="stylesheet" href="/GIT/estilos.css">
+    <title>Práctica Git - Añade tu Nombre</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            text-align: center;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            width: 90%;
+        }
+
+        h1 {
+            color: #333;
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        p {
+            color: #555;
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+
+        .name-input {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 100%;
+            max-width: 300px;
+            font-size: 1rem;
+            box-sizing: border-box;
+            margin-bottom: 20px;
+            outline: none;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
-        <h2>Iniciar Sesión</h2>
-        <form id="loginForm" onsubmit="return validarFormulario()">
-            <div class="form-group">
-                <label for="usuario">Usuario:</label>
-                <input type="text" id="usuario" name="usuario">
-            </div>
-            <div class="form-group">
-                <label for="contraseña">Contraseña:</label>
-                <input type="password" id="contraseña" name="contraseña">
-            </div>
-            <button type="submit">Iniciar Sesión</button>
-            <p id="mensajeError" class="error"></p>
-        </form>
-    </div>
-    <script src="/GIT/script.js"></script>
+        <h1>Práctica Git</h1>
+        <p>Añade tu nombre:</p>
+        <span><p>Michell Dayana</p></span>    
+    
+    
+</div>
 </body>
 </html>
